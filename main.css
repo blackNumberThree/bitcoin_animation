@@ -1,0 +1,1639 @@
+body{
+	width: 100%;
+	height: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	background: #000;
+}
+.bunner-box{
+	width: 160px;
+	height: 600px;
+	overflow: hidden;
+	background: #fff;
+	border: 1px solid white;
+	overflow: hidden;
+}
+.bunner{
+	overflow: hidden;
+	width: 160px;
+	height: 600px;
+	background: #009ee3;
+	animation-name: bunner;
+	animation-duration: 20s;
+  	animation-iteration-count: infinite;
+}
+.bunner1{
+	overflow: hidden;
+	width: 160px;
+	height: 600px;
+	background: #26C97A;
+	animation-name: bunner-1;
+	animation-duration: 20s;
+  	animation-iteration-count: infinite;
+ 	transform: translateY(-600px); 
+
+}
+.bunner2{
+	overflow: hidden;
+	width: 160px;
+	height: 600px;
+	background: #22AFBE;
+	animation-name: bunner-2;
+	animation-duration: 20s;
+  	animation-iteration-count: infinite;
+  	 transform: translateY(-1200px); 
+
+
+}
+.bunner3{
+	overflow: hidden;
+	width: 160px;
+	height: 600px;
+	background: #009EE3;
+	animation-name: bunner-3;
+	animation-duration: 20s;
+  	animation-iteration-count: infinite;
+  	transform: translateY(-1800px); 
+
+
+}
+
+.logo{
+	width: 136px;
+	height: 37px;
+	margin: 12px;
+}
+
+.logo1{
+	margin-left: 29px;
+	margin-top: 4px;
+	width: 111px;
+	height: 25px;
+	animation-name: zooms;
+	animation-duration: 5s;
+  	animation-iteration-count: infinite;
+}
+
+.logo2{
+	margin-left: 34px;
+	margin-top: 4px;
+	width: 100px;
+	height: 16px;
+	animation-name: zooms;
+	animation-duration: 5s;
+  	animation-iteration-count: infinite;
+}
+
+.men{
+	width: 569px;
+	height: 440px;
+	transform: translateX(-430px);
+	animation-name: man;
+	animation-duration: 5s;
+  	animation-iteration-count: infinite;
+}
+.money{
+	width: 286px;
+	height: 351px;
+	transform: translate(230px, -360px);
+	animation-name: money;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+.plate{
+	animation-name: plate;
+	animation-duration: 5s;
+  	animation-iteration-count: infinite;
+}
+.cryptoffers-com{
+	width: 148px;
+	height: 14px;
+	background: #fff;
+	padding: 10px 6px;
+	margin: 0px;
+	transform: translateY(-569px);
+}
+
+
+.logo3{
+	margin-left: 14px;
+	margin-top: 2px;
+	width: 133px;
+	height: 25px;
+	animation-name: zooms;
+	animation-duration:5s;
+  	animation-iteration-count: infinite;
+}
+.logo4{
+	margin-left: 10px;
+	margin-top: 2px;
+	width: 140px;
+	height: 34px;
+	animation-name: zooms;
+	animation-duration: 5s;
+  	animation-iteration-count: infinite;
+}
+.all{
+	transform: translateY(455px);
+	animation-name: all;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+.platef{
+	transform: translateY(175px);
+	animation-name: platef;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+.cryptoffers-com1{
+	width: 148px;
+	height: 14px;
+	background: #fff;
+	padding: 10px 6px;
+	margin: 0px;
+	transform: translateY(-90px);
+}
+.btc{
+	animation-duration: 5s;
+	animation-timing-function: ease-in;
+	animation-iteration-count: infinite;
+}
+.btca{
+	animation-name: btca;
+	
+}
+.btcb{
+	animation-name: btcb;
+
+
+}
+.btcc{
+	animation-name: btcc;
+
+
+}
+.btcd{
+	animation-name: btcd;
+
+
+}
+.btce{
+	animation-name: btce;
+
+
+}
+.btcf{
+	animation-name: btcf;
+
+
+}
+.btcg{
+	animation-name: btcg;
+
+
+}
+.btcj{
+	animation-name: btcj;
+	
+}
+.btck{
+	animation-name: btck;
+	
+}
+@keyframes man {
+
+  0% {
+	transform: translate(-430px, -350px);
+  }
+   4% {
+  }
+  10% {
+  }
+   14% {
+	transform: translate(-250px, -350px);
+  }
+
+  20% {
+  }
+  24%{
+	transform: translate(-200px, -377px) scale(0.8);
+  } 
+
+
+   40%{
+  } 
+  34%{
+	transform: translate(-220px, -424px) scale(0.7);
+  }
+
+
+  	60% {
+  }
+ 	44% {
+	transform: translate(-220px, -454px) scale(0.5);
+  }
+
+
+   100% {
+	transform: translate(-220px, -454px) scale(0.5);
+  }
+}
+@keyframes money {
+   0% {
+	transform: translate(130px, 92px);
+    }
+    4% {
+	transform: translate(130px, 92px);
+    }
+
+    10% {
+    }
+    14% {
+	transform: translate(40px, 92px);
+    }
+
+ 	20% {
+    }
+ 	24% {
+	transform: translate(40px, 60px) scale(0.8);
+    }
+
+    40% {
+    }
+    34% {
+	transform: translate(20px, 04px) scale(0.7);
+    }
+
+
+    44% {
+	transform: translate(0px, -48px) scale(0.6);
+    }
+
+
+    100% {
+	transform: translate(0px, -48px) scale(0.6);
+   }
+}
+
+@keyframes plate {
+
+    0% {}
+
+    4% {}
+
+ 	10% {
+	
+     }
+ 	14% {
+	
+    }
+
+
+   20% {
+	
+    }
+   24% { transform: translateY(-425px);
+	
+    }
+
+
+    40% { 
+
+    }
+    34% { transform: translateY(-495px);
+	
+    }
+	60% {	
+	}
+	44% { transform: translateY(-565px);
+	}
+    100% {
+	transform: translateY(-565px);
+   }
+}
+
+@keyframes zooms {
+  0% {
+	transform: scale(0);
+	animation-timing-function: linear;
+     }
+
+  8% {
+	transform: scale(1)	
+	 }
+
+  100%{
+	transform: scale(1)	
+	 }
+}
+
+@keyframes all {
+	/*1*/
+	   0% {
+	   		transform: translate(-250px, 150px);
+	    }
+	    4% {
+	    	
+	    }
+	/*2*/
+	    10% { transform: translate(-175px, 130px) scale(1.4);
+	    }
+	    14% {  
+	    }
+	/*3*/
+	 	30% { transform: translate(-105px, 65px) scale(1);
+	    	    	
+	    }
+	 	34% { 
+	 		    	 
+	    }
+	/*4*/
+	    40% {transform: translate(-75px, -30px) scale(0.8);
+	 		    	 
+	    }
+	    54% {
+	    	    	
+	    }
+	/*5*/
+	    70% {
+	    }
+	    74% {
+	    }
+	    100% {
+	    	transform: translate(-75px, -30px) scale(0.8);
+	   }
+}
+@keyframes platef {
+	/*1*/
+    0% { transform: translateY(175px);
+    }
+    4% { 
+    }
+	/*2*/
+   10% {
+    }
+    14% {  transform: translateY(56px)
+    }
+	/*3*/
+ 	30% { transform: translateY(-14px);
+    }
+	/*4*/
+    40% { transform: translateY(-84px);
+    }
+    54% { 
+    }
+	/*5*/
+    80% { 
+    }
+    84% { 
+    }
+    100% { transform: translateY(-84px);
+    }
+}
+@keyframes btca{
+ 0% { 
+ 	opacity: 0; 
+ 	transform: translate(120px,-495px);
+	}
+	45% { 
+ 	opacity: 0; 
+ 	transform: translate(120px,-495px);
+	}
+	48%{  
+	transform: translate(120px,-535px);
+	opacity: 0.5;
+	}
+    54% {  
+    opacity: 1;
+    transform: translate(120px,-355px);
+    }
+     100% {  
+    opacity: 1;
+    transform: translate(120px,-355px);
+    }
+}
+@keyframes btcb{
+ 0% { 
+ 	opacity: 0; 
+ 	transform: translate(70px,-495px);
+	}
+	48% { 
+ 	opacity: 0; 
+ 	transform: translate(70px,-495px);
+	}
+	51%{  
+	transform: translate(70px,-535px);
+	opacity: 0.5;
+	}
+    57% {  
+    opacity: 1;
+    transform: translate(15px,-358px);
+    }
+     100% {  
+    opacity: 1;
+    transform: translate(15px,-358px);
+    }
+}
+@keyframes btcc{
+ 0% { 
+ 	opacity: 0; 
+ 	transform: translate(80px,-475px);
+	}
+	 51% { 
+ 	opacity: 0; 
+ 	transform: translate(80px,-475px);
+	}
+	54%{  
+	transform: translate(0px,-535px);
+	opacity: 0.5;
+	}
+	 60% {  
+    opacity: 1;
+    transform: translate(-20px,-450px);
+    }
+    100% {  
+    opacity: 1;
+    transform: translate(-20px,-450px);
+    }
+}
+@keyframes btcd{
+ 0% { 
+ 	opacity: 0; 
+ 	transform: translate(20px,-495px);
+	}
+	54% { 
+ 	opacity: 0; 
+ 	transform: translate(20px,-495px);
+	}
+	57%{  
+	transform: translate(20px,-535px);
+	opacity: 0.5;
+	}
+    63% {  
+    opacity: 1;
+    transform: translate(-45px,-470px);
+    }
+    100% {  
+    opacity: 1;
+    transform: translate(-45px,-470px);
+    }
+}
+@keyframes btce{
+ 0% { 
+ 	opacity: 0; 
+ 	transform: translate(20px,-495px);
+	}
+	 57% { 
+ 	opacity: 0; 
+ 	transform: translate(20px,-495px);
+	}
+	60%{  
+	transform: translate(20px,-535px);
+	opacity: 0.5;
+	}
+	66% {  
+    opacity: 1;
+    transform: translate(-20px,-455px);
+    }
+    100% {  
+    opacity: 1;
+    transform: translate(-20px,-455px);
+    }
+}
+@keyframes btcf{
+ 0% { 
+ 	opacity: 0; 
+ 	transform: translate(95px,-495px);
+	}
+	 60% { 
+ 	opacity: 0; 
+ 	transform: translate(95px,-495px);
+	}
+	63%{  
+	transform: translate(95px,-535px);
+	opacity: 0.5;
+	}
+    69% {  
+    opacity: 1;
+    transform: translate(30px,-385px);
+    }
+     100% {  
+    opacity: 1;
+    transform: translate(30px,-385px);
+    }
+}
+@keyframes btcg{
+ 0% { 
+ 	opacity: 0; 
+ 	transform: translate(80px,-495px);
+	}
+	63% { 
+ 	opacity: 0; 
+ 	transform: translate(80px,-495px);
+	}
+	66%{  
+	transform: translate(80px,-535px);
+	opacity: 0.5;
+	}
+    72% {  
+    opacity: 1;
+    transform: translate(40px,-542px);
+    }
+     100% {  
+    opacity: 1;
+    transform: translate(40px,-542px);
+    }
+}
+@keyframes btcj{
+ 0% { 
+ 	opacity: 0; 
+ 	transform: translate(50px,-495px);
+	}
+	66% { 
+ 	opacity: 0; 
+ 	transform: translate(50px,-495px);
+	}
+	69%{  
+	transform: translate(50px,-535px);
+	opacity: 0.5;
+	}
+   75% {  
+    opacity: 1;
+    transform: translate(65px,-485px);
+    }
+    100% {  
+    opacity: 1;
+    transform: translate(65px,-485px);
+    }
+}
+@keyframes btck{
+ 0% { 
+ 	opacity: 0; 
+ 	transform: translate(40px,-500px);
+	}
+	69% { 
+ 	opacity: 0; 
+ 	transform: translate(40px,-500px);
+	}
+	72%{  
+	transform: translate(40px,-565px);
+	opacity: 0.5;
+	}
+    76% {  
+    opacity: 1;
+    transform: translate(-5px,-581px);
+    }
+    100% {  
+    opacity: 1;
+    transform: translate(-5px,-581px);
+    }
+}
+
+
+
+
+
+.logo{
+	width: 136px;
+	height: 37px;
+	margin: 12px;
+}
+
+.logo5{
+	margin: 0 13px;
+	animation-name: zooms;
+	animation-duration: 5s;
+  	animation-iteration-count: infinite;
+}
+
+.logo6{
+	margin: 0 25px;
+	animation-name: zooms;
+	animation-duration: 5s;
+  	animation-iteration-count: infinite;
+}
+.cryptoffers-com2{
+	width: 148px;
+	height: 14px;
+	background: #fff;
+	padding: 10px 6px;
+	margin: 0px;
+	transform: translateY(-53px);
+}
+.magnit{
+	transform: translate(200px,  100px) scale(1.5);
+	animation-name: magnit;
+	animation-duration: 5s;
+  	animation-iteration-count: infinite;
+}
+.plates{
+	transform: translateY(200px);
+	animation-name: plates;
+	animation-duration: 5s;
+  	animation-iteration-count: infinite;
+}
+.flash{
+	animation-name: flash;
+	animation-duration: 5s; 
+	animation-iteration-count: infinite;
+}
+
+.flash-1{
+	animation-name: flash-1;
+	animation-duration: 5s; 
+	animation-iteration-count: infinite;
+}
+.flash-2{
+	animation-name: flash-2;
+	animation-duration: 5s; 
+	animation-iteration-count: infinite;
+}
+.btc-1{
+	animation-duration: 5s; 
+	animation-iteration-count: infinite;
+}
+.bitcoin-1{
+	animation-name: bitcoin-1;
+}
+.bitcoin-2{
+	animation-name: bitcoin-2;
+}
+.bitcoin-3{
+	animation-name: bitcoin-3;
+}
+.bitcoin-4{
+	animation-name: bitcoin-4;
+}
+.bitcoin-5{
+	animation-name: bitcoin-5;
+}
+.bitcoin-6{
+	animation-name: bitcoin-6;
+}
+.bitcoin-7{
+	animation-name: bitcoin-7;
+}
+.bitcoin-8{
+	animation-name: bitcoin-8;
+}
+.bitcoin-9{
+	animation-name: bitcoin-9;
+}
+.bitcoin-10{
+	animation-name: bitcoin-10;
+}
+.bitcoin-11{
+	animation-name: bitcoin-11;
+}
+.mb{
+	height: 12px;
+}
+@keyframes zooms {
+  0% {
+	transform: scale(0);
+	animation-timing-function: linear;
+     }
+
+  8% {
+	transform: scale(1)	
+	 }
+
+  100%{
+	transform: scale(1)	
+	 }
+}
+@keyframes magnit {
+	/*1*/
+	   0% { transform: translate(200px,  110px);
+	    }
+	    2% { 
+	    }
+	    6% { transform: translate(35px, 115px) scale(1.4) ;
+	    }
+	/*2*/
+	    12% { transform: translate(5px, 85px) scale(1.1) ;
+	    }
+	    14% { transform: translate(5px, 85px) scale(1.1) ;
+	    }
+	/*3*/
+	 	30% {
+	    }
+	 	34% { transform: translate(-15px, 40px) scale(0.9) ;
+	 		    	 
+	    }
+	/*4*/
+	    50% { transform: translate(-20px, -10px) scale(0.8) ;
+	 		    	 
+	    }
+	    54% {
+	    	    	
+	    }
+	/*5*/
+	    80% {
+	    }
+	    84% {
+	    }
+	    100% {transform: translate(-20px, -10px) scale(0.8) ;
+	    	
+	   }
+}
+@keyframes plates {
+	/*1*/
+	   0%{	transform: translateY(200px);
+
+	    }
+	    2% {	
+
+	    }
+	/*2*/
+	    10% {
+	    }
+	    16% {transform: translateY(100px);
+	    }
+	/*3*/
+	 	10% {
+	 	    }
+	 	36% {  transform: translateY(25px);
+	    }
+	/*4*/
+	    48% {  transform: translateY(-40px);
+	    }
+	    62% {   	
+	    }
+	/*5*/
+	    80% {
+	    }
+	    84% {
+	    }
+	    100% {transform: translateY(-40px);
+	   }
+}
+@keyframes flash {
+	/*1*/
+	   0% { opacity: 0;
+	   	transform: translate(125px, -555px) scale(1.4);
+	    }
+	    2% { 
+	    }
+	    6% { 
+	    }
+	/*2*/
+	    20% {transform: translate(125px, -575px) scale(1.4);
+	    }
+
+		21% {  opacity: 0;}
+		22% { opacity: 1; }
+		23% {  opacity: 0;}
+	    24% { transform: translate(125px, -575px) scale(1.4); 
+	    }
+	/*3*/
+		39% {  opacity: 0;}
+	 	40% {transform: translate(135px, -575px) scale(1);
+	 		 opacity: 1;
+	    }
+	 	44% { transform: translate(135px, -575px) scale(1); 
+	 	opacity: 1; 	 
+	    }
+	    45% {  opacity: 0;}
+	/*4*/
+	    60% { transform: translate(105px, -605px) scale(1);
+	    	opacity: 0;
+	    }
+	    64% { transform: translate(105px, -605px) scale(1);
+	    	opacity: 1;
+	    }
+	/*5*/
+	 
+	    81% {  opacity: 0;}
+		82% { opacity: 1; }
+		83% {  opacity: 0;}
+	   
+	    100% {transform: translate(105px, -605px) scale(1);
+	    	{ opacity: 1; }
+	   }
+}
+@keyframes flash-1 {
+	/*1*/
+	   0% { opacity: 0;
+	   	transform: translate(100px, -410px) scale(1.2);
+	    }
+	    2% { transform: translate(100px, -410px) scale(1.2);
+	    }
+	    6% { 
+	    }
+	/*2*/
+	    20% {
+	    }
+	    21% {  opacity: 0;}
+		22% { opacity: 1; }
+		23% {  opacity: 0;}
+	    24% { transform: translate(100px, -390px) scale(1.2);
+	    }
+	/*3*/
+		39% {  opacity: 0;}
+	 	40% {transform: translate(110px, -485px) scale(0.9);
+	        opacity: 1;}
+	 	44% { transform: translate(110px, -485px) scale(0.9);
+	 		opacity: 1;	    	 
+	    }
+	    45% {  opacity: 0;}
+	/*4*/
+	    60% {transform: translate(90px, -475px) scale(1);
+	    	opacity: 0;
+	 		    	 
+	    }
+	    64% { transform: translate(90px, -475px) scale(1);
+	    	opacity: 1;
+	  	    	
+	    }
+	/*5*/
+	    84% {  opacity: 0;}
+		85% { opacity: 1; }
+		86% {  opacity: 0;}
+	    100% {transform: translate(90px, -485px) scale(1);
+	    	{ opacity: 1; }
+	   }
+}
+@keyframes flash-2 { 
+	/*1*/
+	   0% {opacity: 0;
+	   	transform: translate(80px, -70px) scale(1.2);
+	    }
+	    2% { transform: translate(65px, -70px) scale(1.2);
+	    }
+	    6% { 
+	    }
+	/*2*/
+	    20% {
+	    }
+	     21% {  opacity: 0;}
+		22% { opacity: 1; }
+		23% {  opacity: 0;}
+	    24% { transform: translate(65px, -70px) scale(1.2);
+	    }
+	/*3*/
+
+	 	40% {transform: translate(50px, -535px) scale(1);
+	    }
+	 	44% { 
+	 		    	 
+	    }
+	/*4*/
+	    60% { opacity: 0;
+	 		    	 
+	    }
+	    62% { opacity: 1;
+	  	    	
+	    }
+	/*5*/
+	   83% {  opacity: 0;}
+		84% { opacity: 1; }
+		85% {  opacity: 0;}
+	    100% {transform: translate(50px, -535px) scale(1);
+	    	{ opacity: 1; }
+	   }
+}
+@keyframes bitcoin-1 {
+	/*1*/
+	   0%{	transform: translate(160px, -340px); 
+
+	    }
+	    2% {	
+
+	    }
+	/*2*/
+	    20% {
+	    }
+	    24% {
+	    }
+	/*3*/
+	 	41% {transform: translate(160px, -340px); 
+	    }
+	 	42% { 
+	    }
+	/*4*/
+	    60% { 
+	    }
+	    62% {   transform: translate(125px, -317px);	
+	    }
+	/*5*/
+	    80% {transform: translate(125px, -317px);
+	    }
+	    84% {
+	    }
+	    100% { transform: translate(125px, -317px);
+	   }
+}
+@keyframes bitcoin-2 {
+	/*1*/
+	   0%{	transform: translate(160px, -340px); 
+
+	    }
+	    2% {	
+
+	    }
+	/*2*/
+	    20% {
+	    }
+	    24% {
+	    }
+	/*3*/
+	 	42% {transform: translate(160px, -340px); 
+	    }
+	 	43% { 
+	    }
+	/*4*/
+	    60% {
+	    }
+	    62% {   	transform: translate(78px, -317px);
+	    }
+	/*5*/
+	    80% {transform: translate(78px, -317px);
+	    }
+	    84% {
+	    }
+	    100% { transform: translate(78px, -317px);
+	   }
+}
+@keyframes bitcoin-3 {
+	/*1*/
+	   0%{	transform: translate(160px, -340px); 
+
+	    }
+	    2% {	
+
+	    }
+	/*2*/
+	    20% {
+	    }
+	    24% {
+	    }
+	/*3*/
+	 	43% {transform: translate(160px, -340px); 
+	    }
+	 	44% { 
+	    }
+	/*4*/
+	    60% { 
+	    }
+	    62% {   	transform: translate(0px, -317px);
+	    }
+	/*5*/
+	    80% {  transform: translate(0px, -317px);
+	    }
+	    84% {
+	    }
+	    100% { transform: translate(0px, -317px);
+	   }
+}
+@keyframes bitcoin-4 {
+	/*1*/
+	   0%{	transform: translate(160px, -340px); 
+
+	    }
+	    2% {	
+
+	    }
+	/*2*/
+	    20% {
+	    }
+	    24% {
+	    }
+	/*3*/
+	 	43% {
+	    }
+	 	44% { 
+	    }
+	/*4*/
+	    63% { transform: translate(160px, -340px); 
+	    }
+	    64% {   transform: translate(0px, -477px);	
+	    }
+	/*5*/
+	    80% {
+	    }
+	    84% {
+	    }
+	    100% { transform: translate(0px, -477px);
+	
+ }
+}
+@keyframes bitcoin-5 {
+	/*1*/
+	   0%{	transform: translate(160px, -340px); 
+
+	    }
+	    2% {	
+
+	    }
+	/*2*/
+	    20% {
+	    }
+	    24% {
+	    }
+	/*3*/
+	 	43% {
+	    }
+	 	44% { 
+	    }
+	/*4*/
+	    65% { transform: translate(160px, -340px); 
+	    }
+	    66% {   transform: translate(-0px, -417px);
+	    }
+	/*5*/
+	    80% {
+	    }
+	    84% {
+	    }
+	    100% { transform: translate(-0px, -417px);
+	
+ }
+}
+@keyframes bitcoin-6 {
+	/*1*/
+	   0%{	transform: translate(160px, -340px); 
+
+	    }
+	    2% {	
+
+	    }
+	/*2*/
+	    20% {
+	    }
+	    24% {
+	    }
+	/*3*/
+	 	43% {
+	    }
+	 	44% { 
+	    }
+	/*4*/
+	    67% { transform: translate(160px, -340px); 
+	    }
+	    68% {   transform: translate(115px, -535px);
+	    }
+	/*5*/
+	    80% {
+	    }
+	    84% {
+	    }
+	    100% { transform: translate(115px, -535px);
+	
+ }
+}
+@keyframes bitcoin-7 {
+	/*1*/
+	   0%{	transform: translate(160px, -340px); 
+
+	    }
+	    2% {	
+
+	    }
+	/*2*/
+	    20% {
+	    }
+	    24% {
+	    }
+	/*3*/
+	 	43% {
+	    }
+	 	44% { 
+	    }
+	/*4*/
+	    69% { transform: translate(160px, -340px); 
+	    }
+	    70% {   transform: translate(45px, -470px);
+	    }
+	/*5*/
+	    80% {
+	    }
+	    84% {
+	    }
+	    100% { transform: translate(45px, -470px);
+	
+ }
+}
+@keyframes bitcoin-8 {
+	/*1*/
+	   0%{	transform: translate(160px, -340px); 
+
+	    }
+	    2% {	
+
+	    }
+	/*2*/
+	    20% {
+	    }
+	    24% {
+	    }
+	/*3*/
+	 	43% {
+	    }
+	 	44% { 
+	    }
+	/*4*/
+	    71% { transform: translate(160px, -340px); 
+	    }
+	    72% { transform: translate(25px, -430px);
+	    }
+	/*5*/
+	    80% {
+	    }
+	    84% {
+	    }
+	    100% { transform: translate(25px, -430px);
+	
+ }
+}
+@keyframes bitcoin-9 {
+	/*1*/
+	   0%{	transform: translate(160px, -340px); 
+
+	    }
+	    2% {	
+
+	    }
+	/*2*/
+	    20% {
+	    }
+	    24% {
+	    }
+	/*3*/
+	 	43% {
+	    }
+	 	44% { 
+	    }
+	/*4*/
+	    73% { transform: translate(160px, -340px); 
+	    }
+	    74% {   transform: translate(-25px, -550px);
+	    }
+	/*5*/
+	    80% {
+	    }
+	    84% {
+	    }
+	    100% { transform: translate(-25px, -550px);
+	
+ }
+}
+@keyframes bitcoin-10 {
+	/*1*/
+	   0%{	transform: translate(160px, -340px); 
+
+	    }
+	    2% {	
+
+	    }
+	/*2*/
+	    20% {
+	    }
+	    24% {
+	    }
+	/*3*/
+	 	43% {
+	    }
+	 	44% { 
+	    }
+	/*4*/
+	    73% { transform: translate(160px, -340px); 
+	    }
+	    74% {   transform: translate(-25px, -550px);
+	    }
+	/*5*/
+	    80% {
+	    }
+	    84% {
+	    }
+	    100% { transform: translate(-25px, -550px);
+	
+ }
+}
+@keyframes bitcoin-11 {
+	/*1*/
+	   0%{	transform: translate(160px, -340px); 
+
+	    }
+	    2% {	
+
+	    }
+	/*2*/
+	    20% {
+	    }
+	    24% {
+	    }
+	/*3*/
+	 	43% {
+	    }
+	 	44% { 
+	    }
+	/*4*/
+	    69% { transform: translate(160px, -340px); 
+	    }
+	    70% {   transform: translate(85px, -501px);
+	    }
+	/*5*/
+	    80% {
+	    }
+	    84% {
+	    }
+	    100% { transform: translate(85px, -501px);
+ }
+}
+
+
+
+.logo{
+	width: 136px;
+	height: 37px;
+	margin: 12px;
+}
+.logo7{
+	margin: 0 40px;
+	animation-name: zooms;
+	animation-duration: 5s;
+  	animation-iteration-count: infinite;
+}
+
+.logo8{
+	margin: 0 13px;
+	animation-name: zooms;
+	animation-duration: 5s;
+  	animation-iteration-count: infinite;
+}
+.cryptoffers-com3{
+	width: 148px;
+	height: 14px;
+	background: #fff;
+	padding: 10px 6px;
+	margin: 0px;
+	transform: translateY(-613px);
+}
+.bitcoins-3{
+	height: 75px;
+}
+.money-layout{
+		animation-name: money-layout;
+		animation-duration: 5s;
+  	animation-iteration-count: infinite;
+}
+.helper{
+		transform: translateY(275px);
+		animation-name: helper;
+		animation-duration: 5s;
+  	animation-iteration-count: infinite;
+}
+.platet{
+	animation-name: platet;
+		animation-duration: 5s;
+		animation-fill-mode: forwards;
+  	animation-iteration-count: infinite;
+}
+.btc-31{
+		animation-name: btc-31;
+		animation-duration: 5s;
+  	animation-iteration-count: infinite;
+  	transform: translate(-70px,-290px);
+}
+.btc-32{
+	animation-name: btc-32;
+		animation-duration: 5s;
+  	animation-iteration-count: infinite;
+  	  	transform: translate(-70px,-290px);
+
+}
+.btc-33{
+	animation-name: btc-33;
+		animation-duration: 5s;
+  	transform: translate(-70px,-290px);
+
+  	animation-iteration-count: infinite;
+}
+.btc-34{
+	animation-name: btc-34;
+		animation-duration: 5s;
+  	animation-iteration-count: infinite;
+  	  	transform: translate(-70px,-290px);
+
+}.btc-35{
+	animation-name: btc-35;
+		animation-duration: 5s;
+  	animation-iteration-count: infinite;
+		transform: translateY(-825px);
+		  	transform: translate(-70px,-290px);
+
+}
+.btc-36{
+	animation-name: btc-36;
+		animation-duration: 3s;
+  	animation-iteration-count: infinite;
+}
+
+.btc-37{
+	animation-name: btc-37;
+		animation-duration: 3s;
+  	animation-iteration-count: infinite;
+}.btc-38{
+	animation-name: btc-38;
+	animation-duration: 3s;
+  	animation-iteration-count: infinite;
+}
+.btc-39{
+	animation-name: btc-39;
+		animation-duration: 2s;
+  	animation-iteration-count: infinite;
+}
+
+.btc-40{
+	animation-name: btc-40;
+		animation-duration: 2s;
+  	animation-iteration-count: infinite;
+}.btc-40{
+	animation-name: btc-40;
+	animation-duration:2s;
+  	animation-iteration-count: infinite;
+}
+.button{
+	height: 45px;
+	z-index: 3000;
+	transform: translate(15px,-655px);
+	opacity:0;
+	animation-name: button-1;
+	animation-duration: 5s;
+  	animation-iteration-count: infinite;
+}
+@keyframes  money-layout{
+	/*1*/
+	   0%{	transform: translateY(-825px); 
+
+	    }
+	    8% {transform: translateY(-190px); 
+
+	    }
+	/*2*/
+	    18% {transform: translateY(-190px);
+	    }
+	
+	    
+	 	28% { transform: translateY(-275px);
+	    }
+	/*4*/
+	 
+	    40% { transform: translateY(-440px);
+	    }
+	/*5*/
+
+	    100% { transform: translateY(-440px); 	
+	   }
+}
+@keyframes  platet{
+	/*1*/
+	   0%{	transform: translateY(-280px); 
+
+	    }
+	
+		
+		18%{	transform: translateY(-320px); 
+
+	    }
+	 
+	 	28% {  transform: translateY(-390px);
+	    }
+	/*4*/
+	    
+	    40% {  transform: translateY(-555px)
+	    }
+	/*5*/
+	    80% {
+	    }
+	    84% {
+	    }
+	    100% {transform: translateY(-555px)	
+	   }
+}
+@keyframes  helper{
+	/*1*/
+	   0%{	transform: translateY(305px); 
+	    }
+	 
+
+	/*2*/
+	    12% {  transform: translateY(25px);
+	    }
+	    18% { transform: translateY(25px);;
+	    }
+	/*3*/
+	 	
+	 	28% {  transform: translateY(-115px)scale(0.9);
+	    }
+	/*4*/
+	    
+	    40% { transform: translateY(-260px)scale(0.8);
+	    }
+	
+	    100% {transform: translateY(-260px)scale(0.8);
+	   }
+}
+
+@keyframes  button-1{
+	/*1*/
+	   0%{	 opacity: 0;
+	    }
+	    40% {opacity: 0;
+	    }
+	     45% {opacity: 1;
+	    }
+	    50% {opacity: 0;
+	    }
+	    55% {opacity: 1;
+	    }
+	    60% {opacity: 0;
+	    }
+	    65% { opacity:1;
+	   }
+	     70% {opacity: 0;
+	    }
+	
+	     75% {opacity: 1;
+	    }
+	 80% {opacity: 0;
+	    }
+	    80% {opacity: 1;
+	    }
+	81% {opacity: 1;
+	    } 
+	 
+	    100% { opacity: 1;
+	   }
+}
+@keyframes  btc-36{
+	0%{transform: translate(200px,-830px);
+	    }
+	 50%{transform: translate(-400px,330px);
+	    }
+	100%{transform: translate(-400px,330px);
+	    }
+}
+@keyframes  btc-37{
+	0%{transform: translate(200px,-750px);
+
+	    }
+	 25%{transform: translate(200px,-750px);
+	    }
+	  75%{transform: translate(-400px,430px);
+	    }
+	100%{transform: translate(-400px, 430px);
+	    }
+}
+@keyframes  btc-38{
+	0%{transform: translate(200px,-950px);
+
+	    }
+	 50%{transform: translate(200px,-950px);
+	    }
+	    
+	100%{transform: translate(-400px, 130px);
+	    }
+}
+@keyframes  btc-39{
+	0%{transform: translate(200px,-830px);
+	    }
+	    15%{transform: translate(200px,-830px);
+	    }
+	    85%{transform: translate(-400px,330px);
+	    }
+	100%{transform: translate(-400px,330px);
+	    }
+}
+@keyframes  btc-40{
+	0%{transform: translate(200px,-750px);
+
+	    }
+	 30%{transform: translate(200px,-1050px);
+	    }
+	  
+	100%{transform: translate(-400px, 430px);
+	    }
+}
+@keyframes  btc-41{
+	0%{transform: translate(200px,-950px);
+
+	    }
+	 70%{transform: translate(-400px, 130px);
+	    }
+	    
+	100%{transform: translate(-400px, 130px);
+	    }
+}
+
+@keyframes  bunner{
+	0%{opacity:0;
+	  }
+	 1%{opacity: 1;
+	 }
+
+	
+	 23%{opacity: 1;
+	 }
+	 24.2%{opacity: 0;
+	 }
+	
+	 49%{
+	 }
+	 50%{
+	 }
+	 51%{
+	 }
+	 74%{
+	 }
+	 75%{
+	 }
+	 76%{
+	 }
+	 99%{
+	 }
+	100%{opacity: 0;
+	    }
+}
+@keyframes  bunner-1{
+	0%{opacity: 0;
+	  }
+	 1%{
+	 }
+	
+	 24.8%{opacity: 0;
+	 }
+	 26%{opacity: 1;
+	 }
+	 
+	 48%{opacity: 1;
+	 }
+	 49%{opacity: 0;
+	 }
+	 51%{
+	 }
+	 74%{
+	 }
+	 75%{
+	 }
+	 76%{
+	 }
+	 99%{
+	 }
+	100%{opacity: 0;
+	    }
+}
+@keyframes  bunner-2{
+	0%{opacity: 0;
+	  }
+	 1%{
+	 }
+	 23%{
+	 }
+	 24%{
+	 }
+	 
+	 50%{opacity: 0;
+	 }
+	 51%{opacity: 1;
+	 }
+	 74%{opacity: 1;
+	 }
+	 
+	 75%{opacity: 0;
+	 }
+	 76%{
+	 }
+	 99%{
+	 }
+	100%{opacity: 0;
+	    }
+}
+@keyframes  bunner-3{
+	0%{opacity: 0;
+	  }
+	 1%{
+	 }
+	 23%{
+	 }
+	 24%{
+	 }
+	 
+	 49%{
+	 }
+	 50%{
+	 }
+	 76%{opacity: 0;
+	 }
+	 77%{opacity: 1;
+	 }
+	 99%{opacity: 1;
+	 }
+	100%{opacity: 0;
+	    }
+}
