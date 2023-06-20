@@ -1,1 +1,1 @@
-# version1
+# Bitcoin animation
